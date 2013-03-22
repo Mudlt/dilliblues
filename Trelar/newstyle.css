@@ -2,18 +2,20 @@ body{
 	/*background-image: url('images/01.png');
 	background-repeat: repeat-y;
 */
-	background: #FFE4E1;	
-}
+	/*background: #FFE4E1;	
+*/}
 
 #header{
 	display: block;
 	position: fixed;
 	width:1240px;
 	height:180px;
-	margin:-8px 0 0 -7px;
+	margin:-8px 0 0 -8px;
 	/*background: rgba(47,79,79,0.8);
 	*/
+	
 	background: rgba(0,0,0,0.8);
+	
 	color:#ffe4e1;
 	font-family: 'Lato', sans-serif;
 	/*box-shadow: 1px 1px 1px #270010;
@@ -21,7 +23,8 @@ body{
 
 	z-index: 99;
 	/*margin-left: 0px;
-	*/border-radius: 3px;
+	border-radius: 3px;
+	*/
 	text-align: center;
 }
 #shadow{
@@ -54,16 +57,13 @@ a.youtube {
 
 
 
-#page{
+/*#page{
 	position: relative;
 	width: 1240px;
-	/*background: url('images/upperwrap-shadow.png') center top no-repeat;
-	background: rgba(240,240,240,0.9);
-	*/
+	
 	height: 1000px;
 	text-align: center;
-	/*background: rgba(255,240,245,0.4);
-	*/margin: 0 0 0 -7px;
+	margin: 0 0 0 -7px;
 	padding: 200px 0 0 0;
 	font-family: 'Lato', sans-serif;
 	color: #2f4f4f;
@@ -95,10 +95,31 @@ a.youtube {
 	background: url('images/upperwrap-shadow.png') no-repeat center top;
 	padding: 1px;
 }*/
+
+#page{
+	display: block;
+	position: relative;
+	width: 1240px;
+	height: 1000px;
+	/*background: rgb(19,19,70);
+	*/
+	background: rgb(255,255,255)
+	margin: 0 0 0 -8px;
+}
+.sidebar{
+	display: block;
+	position: relative;
+	width: 80px;
+	height: 1000px;
+	background: rgba(218,165 ,32,0.8);
+	margin: 0 0 0 0;
+
+}
+
 #footer{
 	display: block;
 	position: relative;
-	margin: 0 0 -8px -7px;
+	margin: -9px 0 0 -8px;
 	
 	height: 140px;
 	width: 1240px;
@@ -107,7 +128,7 @@ a.youtube {
 }
 #footer p{
 	display: block;
-	position: absolute;
+	position: relative;
 	margin-bottom: 15px;
 	margin-left: 15px;
 	margin-top: 10px;
